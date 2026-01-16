@@ -1,0 +1,36 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 16px;
+  text-align: center;
+  background: #7dd3fc;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.sidebar {
+  width: 220px;
+  background: #e5e7eb;
+  padding: 12px;
+}
+
+.preview {
+  flex: 1;
+  background: #fef3c7;
+  border: 2px solid #facc15;
+}
+
+.css-output {
+  width: 280px;
+  background: #e0f2fe;
+  padding: 12px;
+}
