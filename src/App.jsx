@@ -1,4 +1,8 @@
-import "./App.css";
+import './App.css';
+import Sidebar from './components/Sidebar';
+import Preview from './components/Preview';
+import CssOutput from './components/CssOutput';
+
 
 function App() {
   return (
@@ -8,20 +12,14 @@ function App() {
       </header>
 
       <main className="main">
-        <aside className="sidebar">
-          Controls
-        </aside>
-
-        <section className="preview">
-          Preview
-        </section>
-
-        <aside className="css-output">
-          CSS Output
-        </aside>
+        <Sidebar />
+        <Preview />
+        <CssOutput />
       </main>
     </div>
   );
 }
 
+
 export default App;
+
